@@ -16,6 +16,12 @@ dist/
 build/
 *.log
 
+# Test Artifacts (Ignore results, keep the code)
+/test-results/
+/playwright-report/
+/coverage/
+.nyc_output
+
 # Environment variables
 .env
 .env.local
